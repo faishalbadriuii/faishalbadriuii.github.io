@@ -8,10 +8,12 @@
 
 	<script language="JavaScript">
 		var nilai = prompt("Nilai 0 - 100 : ", 0);
-		var hasil = "tidak lulus";
+		var hasil = "";
 
 		if (nilai > 60) {
 			hasil = "lulus";
+		} else {
+			hasil = "tidak lulus";
 		}
 
 		document.write("Hasil : " + hasil);
